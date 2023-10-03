@@ -19,3 +19,9 @@
 
 # Go workspace file
 go.work
+
+# .ssh directory stores private keys
+.ssh/*
+
+.env
+tmp

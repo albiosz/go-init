@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "dockerComposeFile": [
+    "../docker-compose.dev.yml"
+  ],
+  "service": "server",
+  "workspaceFolder": "/home/dev/app",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "github.copilot",
+        "github.copilot-labs",
+        "github.vscode-pull-request-github",
+        "eamodio.gitlens",
+        "bungcip.better-toml",
+        "visualstudioexptteam.vscodeintel",
+        "sensourceinc.vscode-sql-beautify",
+        "visualstudioexptteam.vscodeintel",
+        "streetsidesoftware.code-spell-checker",
+        "tamasfe.even-better-toml",
+        "Gruntfuggly.todo-tree",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
